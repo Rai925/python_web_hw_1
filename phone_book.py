@@ -228,7 +228,7 @@ def load_data():
 
 def main():
     book = load_data()
-    ui = ConsoleInterface()
+    ui = WebInterface()
     ui.send_message("Welcome to the assistant bot!")
     while True:
         user_input = input("Enter a command: ")
